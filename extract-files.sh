@@ -114,6 +114,12 @@ function blob_fixup {
         lib/libshowlogo.so)
             grep -q "libshim_showlogo.so" "${2}" || patchelf --add-needed "libshim_showlogo.so" "${2}"
             ;;
+        vendor/lib*/libwvhidl.so)
+            "${PATCHELF}" --replace-needed "libprotobuf-cpp-lite-3.9.1.so" "libprotobuf-cpp-full-3.9.1.so" "${2}"
+            ;;
+        vendor/lib*/mediadrm/libwvdrmengine.so)
+            "${PATCHELF}" --replace-needed "libprotobuf-cpp-lite-3.9.1.so" "libprotobuf-cpp-full-3.9.1.so" "${2}"
+            ;;
     esac
 }
 
