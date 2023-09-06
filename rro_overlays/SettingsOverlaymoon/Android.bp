@@ -1,5 +1,5 @@
 runtime_resource_overlay {
-    name: "DialerOverlayRMX2020",
+    name: "SettingsOverlaymoon",
     sdk_version: "current",
     resource_dirs: ["res"],
     vendor: true,

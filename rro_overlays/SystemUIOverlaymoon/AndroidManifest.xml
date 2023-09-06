@@ -11,11 +11,10 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.frameworksres.overlay.RMX2020">
-
+    package="com.android.systemui.overlay.moon">
     <application android:hasCode="false" />
     <overlay
-      android:targetPackage="android"
+      android:targetPackage="com.android.systemui"
       android:isStatic="true"
       android:priority="1"/>
 </manifest>

@@ -11,7 +11,7 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.carrierconfig.RMX2020">
+    package="com.android.carrierconfig.moon">
     <application android:hasCode="false" />
     <overlay
       android:targetPackage="com.android.carrierconfig"

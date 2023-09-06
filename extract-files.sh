@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=RMX2020
+DEVICE=moon
 VENDOR=realme
 
 # Load extract_utils and do some sanity checks

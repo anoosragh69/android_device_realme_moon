@@ -15,9 +15,9 @@
 //
 
 cc_library_static {
-    name: "libinit_RMX2020",
+    name: "libinit_moon",
     recovery_available: true,
-    srcs: ["init_RMX2020.cpp"],
+    srcs: ["init_moon.cpp"],
     header_libs: [
         "libbase_headers",
     ],

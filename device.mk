@@ -4,19 +4,19 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/realme/RMX2020
+DEVICE_PATH := device/realme/moon
 
 # Installs gsi keys into ramdisk, to boot a developer GSI with verified boot.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
 
 # Call proprietary blob setup
-$(call inherit-product, vendor/realme/RMX2020/RMX2020-vendor.mk)
+$(call inherit-product, vendor/realme/moon/moon-vendor.mk)
 
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 # IMS
-$(call inherit-product, vendor/realme/RMX2020-ims/RMX2020-ims.mk)
+$(call inherit-product, vendor/realme/moon-ims/moon-ims.mk)
 
 PRODUCT_SHIPPING_API_LEVEL := 29
 
@@ -122,7 +122,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service.RMX2020
+    android.hardware.biometrics.fingerprint@2.1-service.moon
 
 # Gatekeeper
 PRODUCT_PACKAGES += \
@@ -185,7 +185,7 @@ PRODUCT_PACKAGES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.light-service.RMX2020
+    android.hardware.light-service.moon
 
 # Media
 PRODUCT_COPY_FILES += \
@@ -341,15 +341,15 @@ PRODUCT_PACKAGES += \
 
 # Runtime Resource Overlays 
 PRODUCT_PACKAGES += \
-    CarrierConfigOverlayRMX2020 \
-    DialerOverlayRMX2020 \
-    FrameworksResOverlayRMX2020 \
-    SettingsOverlayRMX2020 \
-    SettingsProviderOverlayRMX2020 \
-    SystemUIOverlayRMX2020 \
-    TelephonyOverlayRMX2020 \
-    TetheringResOverlayRMX2020 \
-    WifiResOverlayRMX2020
+    CarrierConfigOverlaymoon \
+    DialerOverlaymoon \
+    FrameworksResOverlaymoon \
+    SettingsOverlaymoon \
+    SettingsProviderOverlaymoon \
+    SystemUIOverlaymoon \
+    TelephonyOverlaymoon \
+    TetheringResOverlaymoon \
+    WifiResOverlaymoon
 
 # Seccomp
 PRODUCT_COPY_FILES += \
@@ -384,7 +384,7 @@ PRODUCT_PACKAGES += \
 
 # USB
 PRODUCT_PACKAGES += \
-    android.hardware.usb@1.0-service.RMX2020
+    android.hardware.usb@1.0-service.moon
 
 # Vibrator
 TARGET_VIBRATOR_SUPPORTS_EFFECTS := true

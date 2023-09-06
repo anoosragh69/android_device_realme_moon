@@ -11,10 +11,10 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.settings.overlay.RMX2020">
+    package="com.android.dialer.overlay.moon">
     <application android:hasCode="false" />
     <overlay
-      android:targetPackage="com.android.settings"
+      android:targetPackage="com.android.dialer"
       android:isStatic="true"
       android:priority="1"/>
 </manifest>

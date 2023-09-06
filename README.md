@@ -1,4 +1,4 @@
-Realme C3/Realme Narzo 10A Device Tree - RMX2020/RMX2027
+Realme Narzo N20 / N30A /Realme 7i (EU) Device Tree - RMX2193 / RMX3171 / RMX2191
 ================================================================
 
 ![Realme C3](https://user-images.githubusercontent.com/47187468/130330695-234069ce-9895-4535-860f-4c8ea57fbb80.png)
@@ -19,7 +19,7 @@ Rear Camera  | Dual : 13 MP; 2MP(depth); 2MP(Macro- only Narzo 10A and C3 Global
 Front Camera | Single: 5 MP
 Release Month | 2020, February 14 | 2020, May 22 
 
-Vendor tree repo: https://github.com/sarthakroy2002/vendor_realme_RMX2020 (branch lineage-19.0-rmui2)
+Vendor tree repo: https://github.com/sarthakroy2002/vendor_realme_moon (branch lineage-19.0-rmui2)
 
 Other Repos needed for building:
 
